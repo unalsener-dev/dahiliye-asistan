@@ -1,0 +1,29 @@
+# Veri ve kılavuz PDF'leri (lisans gereği Git'e girmez)
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+*.pdf
+
+# Model dosyaları
+*.gguf
+*.safetensors
+
+# Gizli bilgiler
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / React / Expo
+node_modules/
+dist/
+.expo/
+
+# Sistem
+.DS_Store
+Thumbs.db
+~$*.docx
